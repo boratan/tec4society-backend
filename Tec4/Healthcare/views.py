@@ -11,33 +11,22 @@ from .serializers import *
 
 
 class PatientViewSet(viewsets.ModelViewSet):
+    queryset = Patient.objects.all()
+    serializer_class = PatientSerializer
 
-    @csrf_exempt
-    def retrieve_all(self):
-        queryset = Patient.objects.all()
-        serializer = PatientSerializer(queryset, many=True)
-        return JsonResponse(serializer.data, safe=False)
-
-    @csrf_exempt
-    def retrieve(self, identifier):
-        queryset = Patient.objects.filter(id=identifier)
-        serializer = PatientSerializer(queryset, many=True)
-        return JsonResponse(serializer.data, safe=False)
+    # @csrf_exempt
+    # def retrieve_all(self):
+    #     queryset = Patient.objects.all()
+    #     serializer = PatientSerializer(queryset, many=True)
+    #     return JsonResponse(serializer.data, safe=False)
+    #
+    # @csrf_exempt
+    # def retrieve(self, identifier):
+    #     queryset = Patient.objects.filter(id=identifier)
+    #     serializer = PatientSerializer(queryset, many=True)
+    #     return JsonResponse(serializer.data, safe=False)
 
 
 class RequestViewSet(viewsets.ModelViewSet):
-
-    @csrf_exempt
-    def retrieve_all(self):
-        queryset = Request.objects.all()
-        serializer = RequestSerializer(queryset, many=True)
-        return JsonResponse(serializer.data, safe=False)
-
-    @csrf_exempt
-    def retrieve(self, identifier):
-        queryset = Request.objects.filter(id=identifier)
-        serializer = RequestSerializer(queryset, many=True)
-        return JsonResponse(serializer.data, safe=False)
-
-
-# borislav upload kubernetes + ask about children
+    queryset = Request.objects.all()
+    serializer_class = RequestSerializer
