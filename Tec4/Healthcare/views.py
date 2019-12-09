@@ -14,6 +14,11 @@ class PatientViewSet(viewsets.ModelViewSet):
     queryset = Patient.objects.all()
     serializer_class = PatientSerializer
 
+
+class RequestViewSet(viewsets.ModelViewSet):
+    queryset = Request.objects.all()
+    serializer_class = RequestSerializer
+
     # @csrf_exempt
     # def retrieve_all(self):
     #     queryset = Patient.objects.all()
@@ -25,8 +30,3 @@ class PatientViewSet(viewsets.ModelViewSet):
     #     queryset = Patient.objects.filter(id=identifier)
     #     serializer = PatientSerializer(queryset, many=True)
     #     return JsonResponse(serializer.data, safe=False)
-
-
-class RequestViewSet(viewsets.ModelViewSet):
-    queryset = Request.objects.all()
-    serializer_class = RequestSerializer
