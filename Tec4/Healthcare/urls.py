@@ -9,9 +9,12 @@ router.register(r'request', views.RequestViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('requestChain/', views.post),
+    path('approveChain/', views.post),
 
     # patient stuff
     # path('Patient/', views.PatientViewSet.retrieve_all),
     # path('Patient/<int:identifier>', views.PatientViewSet.retrieve),
+
 
 ]

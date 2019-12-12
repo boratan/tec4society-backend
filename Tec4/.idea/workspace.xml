@@ -101,6 +101,10 @@
       <workItem from="1575475401863" duration="2303000" />
       <workItem from="1575534143489" duration="2166000" />
       <workItem from="1575536946983" duration="4226000" />
+      <workItem from="1575969075644" duration="503000" />
+      <workItem from="1576052474372" duration="1286000" />
+      <workItem from="1576057031898" duration="2205000" />
+      <workItem from="1576138897233" duration="12791000" />
     </task>
     <servers />
   </component>
@@ -119,5 +123,28 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Healthcare/views.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Healthcare/views.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
