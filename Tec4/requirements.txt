@@ -1,5 +1,5 @@
 Django
 python-dotenv
 django-seed
-djangorestframework
 mysqlclient
+djangorestframework
