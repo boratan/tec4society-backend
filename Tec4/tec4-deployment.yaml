@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tec4-deployment
+  labels:
+    app: tec4
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tec4
+      tier: web
+  template:
+    metadata:
+      labels:
+        app: tec4
+        tier: web
+    spec:
+      containers:
+      - name: tec4society
+        image: kenozakesy/tec4society:1
+        ports:
+        - containerPort: 8000
