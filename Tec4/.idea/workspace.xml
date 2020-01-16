@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b725ef55-d1f3-45dc-b251-a19d99c27c97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tec4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tec4/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tec4-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tec4-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tec4-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tec4-service.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +127,11 @@
       <workItem from="1576057031898" duration="2205000" />
       <workItem from="1576138897233" duration="12791000" />
       <workItem from="1578480799216" duration="934000" />
-      <workItem from="1578558702893" duration="11233000" />
+      <workItem from="1578558702893" duration="11428000" />
+      <workItem from="1578903069210" duration="2834000" />
+      <workItem from="1578917512292" duration="421000" />
+      <workItem from="1579080314220" duration="4824000" />
+      <workItem from="1579162306416" duration="6200000" />
     </task>
     <servers />
   </component>
