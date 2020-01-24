@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b725ef55-d1f3-45dc-b251-a19d99c27c97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tec4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tec4/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tec4-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tec4-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tec4-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tec4-service.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,10 @@
       <workItem from="1578903069210" duration="2834000" />
       <workItem from="1578917512292" duration="421000" />
       <workItem from="1579080314220" duration="4824000" />
-      <workItem from="1579162306416" duration="6200000" />
+      <workItem from="1579162306416" duration="6582000" />
+      <workItem from="1579507984185" duration="605000" />
+      <workItem from="1579767430683" duration="1755000" />
+      <workItem from="1579853537708" duration="3985000" />
     </task>
     <servers />
   </component>
