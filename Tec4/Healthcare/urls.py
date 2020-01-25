@@ -6,11 +6,14 @@ from Healthcare import views
 router = routers.DefaultRouter()
 router.register(r'patient', views.PatientViewSet)
 router.register(r'request', views.RequestViewSet)
+router.register(r'municipality', views.MunicipalityViewSet)
+router.register(r'hospital', views.HospitalViewSet)
+router.register(r'supplier', views.SupplierViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
     path('requestChain/', views.post),
-    # path('approveChain/', views.vote),
+    path('get/', views.get),
 
     # patient stuff
     # path('Patient/', views.PatientViewSet.retrieve_all),

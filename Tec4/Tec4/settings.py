@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'Tec4.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASE = os.getenv('DB_DATABASE', 'dbi344256')  #polls
-USERNAME = os.getenv('DB_USERNAME', 'dbi344256') #tec4
-PASSWORD = os.getenv('DB_PASSWORD', 'koen1234')  #tec4
-HOST = os.getenv('DB_HOST', 'studmysql01.fhict.local') # localhost 34.90.125.187
+DATABASE = os.getenv('DB_DATABASE', 'tec4-2')  #polls
+USERNAME = os.getenv('DB_USERNAME', 'koen') #tec4
+PASSWORD = os.getenv('DB_PASSWORD', 'koen')  #tec4
+HOST = os.getenv('DB_HOST', 'localhost') # localhost 34.90.125.187
 PORT = os.getenv('DB_PORT', '3306') #5432
 #
 DATABASES = {

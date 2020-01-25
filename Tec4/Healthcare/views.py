@@ -9,7 +9,6 @@ from .serializers import *
 
 # Create your views here.
 
-
 class PatientViewSet(viewsets.ModelViewSet):
     queryset = Patient.objects.all()
     serializer_class = PatientSerializer
@@ -18,6 +17,21 @@ class PatientViewSet(viewsets.ModelViewSet):
 class RequestViewSet(viewsets.ModelViewSet):
     queryset = Request.objects.all()
     serializer_class = RequestSerializer
+
+
+class MunicipalityViewSet(viewsets.ModelViewSet):
+    queryset = Municipality.objects.all()
+    serializer_class = MunicipalitySerializer
+
+
+class SupplierViewSet(viewsets.ModelViewSet):
+    queryset = Supplier.objects.all()
+    serializer_class = SupplierSerializer
+
+
+class HospitalViewSet(viewsets.ModelViewSet):
+    queryset = Hospital.objects.all()
+    serializer_class = HospitalSerializer
 
 
 # custom post method meant for accessing the  chaincode API
@@ -40,6 +54,18 @@ def post(request):
             existing_request = RequestSerializer(Request.objects.get(id=data["id"]))
             response = JsonResponse(existing_request.data, safe=False)
         return response
+
+
+# getting specific objects
+@csrf_exempt
+def get(request):
+
+    if request.method == 'GET':
+        # query = Request.objects.raw('SELECT * FROM healthcare_request')
+        query = Request.objects.raw('SELECT id FROM healthcare_patient r') # how to get only select???
+
+        serializer = RequestSerializer(query, many=True)
+        return JsonResponse(serializer.data, safe=False)
 
 
 
