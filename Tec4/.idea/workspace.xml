@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b725ef55-d1f3-45dc-b251-a19d99c27c97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tec4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tec4/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +135,7 @@
       <workItem from="1579507984185" duration="605000" />
       <workItem from="1579767430683" duration="1755000" />
       <workItem from="1579853537708" duration="3985000" />
-      <workItem from="1579947527074" duration="8960000" />
+      <workItem from="1579947527074" duration="10807000" />
     </task>
     <servers />
   </component>

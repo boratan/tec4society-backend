@@ -10,12 +10,6 @@ class PatientSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class RequestSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Request
-        fields = ('id', 'title', 'description', 'hospitalAgree', 'municipalityAgree', 'supplierAgree', 'hospitalId_id', 'municipalityId_id', 'patientId_id', 'supplierId_id')
-
-
 class MunicipalitySerializer(serializers.ModelSerializer):
     class Meta:
         model = Municipality
@@ -32,3 +26,12 @@ class HospitalSerializer(serializers.ModelSerializer):
     class Meta:
         model = Hospital
         fields = "__all__"
+
+
+class RequestSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Request
+        fields = "__all__"
+
+
+
