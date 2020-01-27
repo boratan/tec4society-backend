@@ -1,9 +1,9 @@
-Django==3.0.2
-python-dotenv==0.10.3
-django-seed==0.1.9
-mysqlclient==1.4.6
-djangorestframework==3.11.0
-django-cors-headers==3.2.1
+Django
+python-dotenv
+django-seed
+mysqlclient
+djangorestframework
+django-cors-headers
 
 # appdirs==1.4.3
 # packaging==16.8
