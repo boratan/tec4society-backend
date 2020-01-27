@@ -29,7 +29,12 @@ class HospitalSerializer(serializers.ModelSerializer):
 
 
 class RequestSerializer(serializers.ModelSerializer):
+
+    # patient = PatientSerializer(read_only=True)
+    # class_id_id = serializers.PrimaryKeyRelatedField(queryset=Patient.objects.all(), write_only=True)
+
     class Meta:
+        depth = 1
         model = Request
         fields = "__all__"
 

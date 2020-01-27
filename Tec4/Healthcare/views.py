@@ -62,7 +62,7 @@ def get(request):
 
     if request.method == 'GET':
         # query = Request.objects.raw('SELECT * FROM healthcare_request')
-        query = Request.objects.raw("SELECT id FROM healthcare_request r")# how to get only select???
+        query = Request.objects.raw.get("SELECT * FROM healthcare_request r")# how to get only select???
 
         serializer = RequestSerializer(query, many=True)
         return JsonResponse(serializer.data, safe=False)

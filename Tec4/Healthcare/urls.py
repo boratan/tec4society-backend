@@ -14,6 +14,7 @@ urlpatterns = [
     path('', include(router.urls)),
     path('requestChain/', views.post),
     path('get/', views.get),
+    path('put/', views.put),
 
     # patient stuff
     # path('Patient/', views.PatientViewSet.retrieve_all),

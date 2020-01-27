@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/Healthcare/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tec4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tec4/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,7 @@
   <component name="ProjectId" id="1UTy2acNM2U611OyWQ23RbWOFyp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python-django-api" />

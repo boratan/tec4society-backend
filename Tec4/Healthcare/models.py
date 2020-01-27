@@ -30,14 +30,17 @@ class Request(models.Model):
     description = models.CharField(max_length=300)
     patientId = models.ForeignKey(to='Patient', on_delete=models.CASCADE)
     hospitalId = models.ForeignKey(to='Hospital', on_delete=models.CASCADE)
-    hospitalAgree = models.BooleanField()
+    hospitalAgree = models.IntegerField(choices=((1, "Approved"),
+                                                 (2, "Disapproved"),
+                                                 (3, "Pending")),
+                                        default=1)
     municipalityId = models.ForeignKey(to='Municipality', on_delete=models.CASCADE)
-    municipalityAgree = models.BooleanField()
+    municipalityAgree = models.IntegerField(choices=((1, "Approved"),
+                                                     (2, "Disapproved"),
+                                                     (3, "Pending")),
+                                            default=1)
     supplierId = models.ForeignKey(to='Supplier', on_delete=models.CASCADE)
-    supplierAgree = models.BooleanField()
-
-
-
-
-
-
+    supplierAgree = models.IntegerField(choices=((1, "Approved"),
+                                                 (2, "Disapproved"),
+                                                 (3, "Pending")),
+                                        default=1)
