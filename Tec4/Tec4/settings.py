@@ -58,7 +58,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3716', #should be changed later
+    'http://localhost:3000', #should be changed later
 )
 
 ROOT_URLCONF = 'Tec4.urls'

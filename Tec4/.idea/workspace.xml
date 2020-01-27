@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b725ef55-d1f3-45dc-b251-a19d99c27c97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/views.py" afterDir="false" />
@@ -92,6 +90,7 @@
         <option name="IS_SUBST" value="false" />
         <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
         <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
         <ENTRIES>
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
@@ -162,12 +161,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Healthcare/views.py</url>
-          <line>39</line>
+          <line>46</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Healthcare/views.py</url>
-          <line>43</line>
+          <line>50</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

@@ -18,6 +18,13 @@ class RequestViewSet(viewsets.ModelViewSet):
     queryset = Request.objects.all()
     serializer_class = RequestSerializer
 
+    def get_serializer_class(self):
+        method = self.request.method
+        if method == 'PUT' or method == 'POST':
+            return RequestSerializerWrite
+        else:
+            return RequestSerializer
+
 
 class MunicipalityViewSet(viewsets.ModelViewSet):
     queryset = Municipality.objects.all()
